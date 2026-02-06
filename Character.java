@@ -18,12 +18,11 @@ public class Character {
         this.Stamina = maxStamina;
         System.out.println("Character create with "+ Health + " and " + Stamina + " Stamina" );
     }
-    public int getHealth(){
-        return this.Health;
+    public void getHealth(){
+        System.out.println("Character health = " + this.Health);
     }
-    public int getStamina(){
-        return this.Stamina;
-    }
+    public void getStamina(){
+        System.out.println("Character Stamina = " + this.Stamina);    }
 
     public void CheckCharacter(){
         System.out.println("Character's health: "+ Health + ", Stamina: "  + Stamina + ".");
